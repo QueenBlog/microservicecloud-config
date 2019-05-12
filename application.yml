@@ -1,14 +1,14 @@
 spring: 
    profiles: 
      active: 
-- dev
+     - dev
 ---
 spring: 
    profiles: dev          #开发环境
-     application: 
-name: microservicecloud-config-queen-dev
+   application: 
+     name: microservicecloud-config-queen-dev
 ---
 spring: 
    profiles: test          #测试环境
-     application: 
-name: microservicecloud-config-queen-test
+   application: 
+     name: microservicecloud-config-queen-test
